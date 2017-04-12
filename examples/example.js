@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 //Substitute to your path
 var Cell = require('../').Cell;
 var Row = require('../').Row;

@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const expect = require('chai').expect;
 
@@ -30,7 +30,7 @@ describe('Table', () => {
 			cell = cell2 = cell3 = null;
 			row = row1 = header = null;
 			table = null;
-		})
+		});
 
 		it('Should handle cases when addtable.addRow(row1);ing row countains lesser or '
 			+ 'greater amount of cells then header cells amount', () => {
@@ -70,7 +70,7 @@ describe('Table', () => {
 			expect(table.maxCellsWidthes).to.eql([2, 5, 8]);
 
 			table.addRow(row2);
-			expect(table.maxCellsWidthes).to.eql([2, 11, 8])
+			expect(table.maxCellsWidthes).to.eql([2, 11, 8]);
 			
 			table.addRow(row3);
 			expect(table.maxCellsWidthes).to.eql([3, 11, 18]);
@@ -156,6 +156,6 @@ describe('Table', () => {
 				table.addRow(row2);
 
 				expect(table.maxRowWidth).to.equal(row2.width);
-			})
-	})
-})
+		});
+	});
+});

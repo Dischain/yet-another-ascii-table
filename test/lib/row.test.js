@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const expect = require('chai').expect;
 
@@ -9,7 +9,7 @@ describe('Row', () => {
 
 	describe('getCellById', () => {
 		
-		let row
+		let row;
 
 		beforeEach(() => {
 			row = new Row('some text1', 'some text2', 'some text3');
@@ -22,8 +22,8 @@ describe('Row', () => {
 			expect(cell.text).to.equal('some text2');
 			cell = row.getCellById(2);
 			expect(cell.text).to.equal('some text3');
-		})
-	})
+		});
+	});
 
 	describe('resizeCell', () => {
 
@@ -93,7 +93,7 @@ describe('Row', () => {
 		let row;
 
 		let resultingRow = '|Hello  |cruel |world    |\n' 
-						 + '--------------------------\n'
+						 + '--------------------------\n';
 
 		beforeEach(() => {
 			cell1 = new Cell('Hello', 8);
