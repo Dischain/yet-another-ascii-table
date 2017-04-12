@@ -1,0 +1,21 @@
+{
+  "name": "yet-another-ascii-table",
+  "version": "1.0.0",
+  "description": "yet another minimalistic ascii table drawer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec ./test --recursive",
+    "lint": "./chmod.sh && ./lint.sh ./ || true"
+  },
+  "keywords": [
+    "ascii",
+    "table",
+    "js"
+  ],
+  "author": "dischain",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
