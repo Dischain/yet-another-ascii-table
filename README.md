@@ -1,12 +1,12 @@
 # yet-another-ascii-table
 
-[yet-another-ascii-table](https://github.com/Dischain/yet-another-ascii-table) is a simple and small utility for printing ASCII tables.
+[yet-another-ascii-table](https://github.com/Dischain/yet-another-ascii-table) is a simple and small utility for printing ASCII tables with no dependencies.
 
 ## Quick start
 
 ### Installing
 
-I did not published it with `npm`, so if you want to try, just copy `export/lib/` folder into your project and rename it as you want. 
+I did not published it with `npm`, so if you want to try, just copy `export` folder into your project and rename it as you want. 
 
 ### Example
 
